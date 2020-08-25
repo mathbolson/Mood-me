@@ -1,0 +1,101 @@
+
+
+
+body {font-family: "Raleway", sans-serif
+}
+
+/*body, html {
+  height: 100%;
+  line-height: 1.8;
+}*/
+
+
+#title {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+#title2 {
+  font-size: 30px;
+  color: white;
+}
+
+#textMood {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: gray;
+  background-color: whitesmoke;
+  margin: 0 auto;
+}
+
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+
+  .bgimg2 {
+    background-image: url("./assets/images/team.jpg");
+    min-height: 75%;
+  }
+
+  
+
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .buttons, .display-playlist, .display-movie {
+  float: left;
+  margin-top: 100px;
+  }
+
+#sad {
+  clear: both;
+  display: block;
+  position:static;
+}
+/* styling for the buttons. */
+.emotionButton {
+  border: 1px black;
+  width: 100%;
+  clear: both;
+  height: 117px;
+  margin-left: 10px;
+  font-family: "Raleway", sans-serif;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  
+}
+
+#happy, #excited, #bored {
+  margin-top: 10px;
+}
+
+.buttonContainer {
+  margin-left: 10%;
+}
+
+img, embed, iframe, object, video {
+  height: 520px !important;
+  max-width: 600px !important;
+}
+
+/* colors for hover. Colors are coordinated by mood. */
+.styledSad:hover {
+  background-color: #4DA6FF;
+}
+.styledHappy:hover {
+  background-color: #47D147;
+}
+.styledBored:hover {
+  background-color: #FFCCFF;
+}
+.styledExcited:hover {
+  background-color: #77B300;
+}
+
+
